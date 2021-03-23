@@ -1,0 +1,134 @@
+#ifndef __APPLICATION_H_
+#define __APPLICATION_H_
+
+
+#include "poc.h"
+
+
+#define KEY_FUN_LEFT_DOWN		KEY_VALUE_DOWN1
+#define KEY_FUN_LEFT_UP			KEY_VALUE_UP1
+
+#define KEY_FUN_UP_DOWN		KEY_VALUE_DOWN2
+#define KEY_FUN_UP_UP			KEY_VALUE_UP2
+
+#define KEY_FUN_RIGHT_DOWN		KEY_VALUE_DOWN3
+#define KEY_FUN_RIGHT_UP			KEY_VALUE_UP3
+//home 键
+#define KEY_FUN_HOME_DOWN		KEY_VALUE_DOWN4
+#define KEY_FUN_HOME_UP		KEY_VALUE_UP4
+
+#define KEY_FUN_DOWN_DOWN		KEY_VALUE_DOWN5
+#define KEY_FUN_DOWN_UP			KEY_VALUE_UP5
+
+#define KEY_FUN_OK_DOWN		KEY_VALUE_DOWN6
+#define KEY_FUN_OK_UP			KEY_VALUE_UP6
+
+#define KEY_FUN_XING_DOWN  KEY_VALUE_DOWN10
+#define KEY_FUN_XING_UP  KEY_VALUE_UP10
+//# 键
+#define KEY_FUN_JING_DOWN		KEY_VALUE_DOWN18
+#define KEY_FUN_JING_UP			KEY_VALUE_UP18
+//对讲ptt键
+#define KEY_FUN_PTT_DOWN   KEY_VALUE_DOWN19   
+#define KEY_FUN_PTT_UP  	 KEY_VALUE_UP19 
+
+#define KEY_FUN_HIGHT_DOWN   KEY_VALUE_DOWN20  
+#define KEY_FUN_HIGHT_UP  	 KEY_VALUE_UP20 
+#define KEY_FUN_LOW_DOWN   KEY_VALUE_DOWN21   
+#define KEY_FUN_LOW_UP  	 KEY_VALUE_UP21
+
+
+#define KEY_FUN_HIGHT_DOWN_3S  KEY_VALUE_DOWN20_3S  
+#define KEY_FUN_LOW_DOWN_3S   KEY_VALUE_DOWN21_3S   
+
+
+
+#define KEY_FUN_NUM1_DOWN 	KEY_VALUE_DOWN7
+#define KEY_FUN_NUM1_UP			KEY_VALUE_UP7
+#define KEY_FUN_NUM2_DOWN 	KEY_VALUE_DOWN8
+#define KEY_FUN_NUM2_UP			KEY_VALUE_UP8
+#define KEY_FUN_NUM3_DOWN 	KEY_VALUE_DOWN9
+#define KEY_FUN_NUM3_UP			KEY_VALUE_UP9
+#define KEY_FUN_NUM4_DOWN 	KEY_VALUE_DOWN11
+#define KEY_FUN_NUM4_UP			KEY_VALUE_UP11
+#define KEY_FUN_NUM5_DOWN 	KEY_VALUE_DOWN12
+#define KEY_FUN_NUM5_UP			KEY_VALUE_UP12
+#define KEY_FUN_NUM6_DOWN 	KEY_VALUE_DOWN13
+#define KEY_FUN_NUM6_UP			KEY_VALUE_UP13
+#define KEY_FUN_NUM0_DOWN 	KEY_VALUE_DOWN14
+#define KEY_FUN_NUM0_UP			KEY_VALUE_UP14
+#define KEY_FUN_NUM7_DOWN 	KEY_VALUE_DOWN15
+#define KEY_FUN_NUM7_UP			KEY_VALUE_UP15
+#define KEY_FUN_NUM8_DOWN 	KEY_VALUE_DOWN16
+#define KEY_FUN_NUM8_UP			KEY_VALUE_UP16
+#define KEY_FUN_NUM9_DOWN 	KEY_VALUE_DOWN17
+#define KEY_FUN_NUM9_UP			KEY_VALUE_UP17
+
+
+
+typedef enum
+{
+	APP_STATUS_NORMAL,
+	APP_STATUS_DEVICE_SHUTDOWN,  //关机
+	DEVICE_STATUS_SLEEP, //睡眠
+	APP_STATUS_WRITE_PROGRAM,  //写程序		
+	APP_STATUS_WRITE_CODE,  //写码	
+	APP_STATUS_STARTING,  //开机中
+	APP_STATUS_ENTER_POC,  //检测到POC
+	APP_STATUS_ENTER_SIM_ERROR,  //未插卡
+	APP_STATUS_SEACH_NETWORK,  //搜索网络
+	APP_STATUS_WORKING_LOCKED,	
+	APP_STATUS_WORKING_UNLOCKING, //按左键解锁中
+	APP_STATUS_WORKING_MAIN,
+	
+	APP_STATUS_MENU_SET_MAIN,	//进入主菜单设置
+  APP_STATUS_SET_SUBMENU1_1, //一级子菜单  群组选择
+	APP_STATUS_SET_SUBMENU1_2,  //成员选择
+	APP_STATUS_SET_SUBMENU1_3,  //好友选择
+	APP_STATUS_SET_SUBMENU1_4,  //单呼记录
+	APP_STATUS_SET_SUBMENU1_5,  //GPS
+	APP_STATUS_SET_SUBMENU1_6,  //设置
+	
+	APP_STATUS_SET_SUBMENU1_2_SEACHING,  //正在查询成员列表
+	APP_STATUS_SET_SUBMENU1_2_1,  //进入子菜单成员设置操作菜单
+	APP_STATUS_SET_SUBMENU1_3_1,  //好友选择子菜单
+	APP_STATUS_SET_SUBMENU1_4_1,  //历史呼叫记录
+	
+	APP_STATUS_SET_SUBMENU1_6_1, //设置子菜单  设置屏幕亮度
+	APP_STATUS_SET_SUBMENU1_6_2, //显示版本号
+	APP_STATUS_SET_SUBMENU1_6_3, //恢复出厂
+	APP_STATUS_SET_SUBMENU1_6_4	, //ppt 嘟嘟音
+	APP_STATUS_SET_SUBMENU1_6_5, //按键音
+	
+	APP_STATUS_CALLING,    //单呼呼叫状态
+	APP_STATUS_BE_CALLED,    //单呼被叫状态	
+	
+
+}app_status_t;
+
+
+
+typedef struct
+{
+	app_status_t status;
+  uint16_t menu_select;   //菜单选择指针
+  uint16_t menu_last_select;  //上级菜单，切换之前的选择
+	uint32_t change_time;
+	
+}app_device_t,*app_device_pt;
+
+
+
+void application_init(void);
+void application_task(void);
+app_status_t application_get_status(void);
+uint16_t application_get_menu_select(void);	
+uint16_t application_get_menu_select_last(void);	
+
+
+
+#endif
+
+
+
+

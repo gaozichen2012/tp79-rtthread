@@ -1,0 +1,14 @@
+.\objects\stm32f10x_gpio.o: ..\Libraries\src\stm32f10x_gpio.c
+.\objects\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\stm32f10x.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\core_cm3.h
+.\objects\stm32f10x_gpio.o: C:\Keil_v5_525\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\system_stm32f10x.h
+.\objects\stm32f10x_gpio.o: ..\Src\usr\stm32f10x_conf.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_rcc.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\stm32f10x.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_spi.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_tim.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\inc\stm32f10x_usart.h
+.\objects\stm32f10x_gpio.o: ..\Libraries\inc\misc.h

@@ -1,0 +1,276 @@
+Dependencies for Project 'VVK-S5', Target 'POC': (DO NOT MODIFY !)
+F (..\Src\usr\stm32f10x_it.c)(0x5D8D69D0)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (..\Src\usr\stm32f10x_it.h)(0x5D8D69D0)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_dma.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdlib.h)(0x599EDB3C)
+I (C:\Keil_v5_525\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Src\drv\uart.h)(0x5D8D69D0)
+F (..\Libraries\startup_stm32f10x_hd.s)(0x5D8D69CF)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526" --pd "STM32F10X_HD SETA 1"--list .\listing\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\Src\drv\uart.c)(0x5D8D69D0)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Src\drv\device_config.h)(0x5D8D69D0)
+I (..\Src\drv\uart.h)(0x5D8D69D0)
+I (..\Src\drv\tim3.h)(0x5D8D69D0)
+I (C:\Keil_v5_525\ARM\ARMCC\include\string.h)(0x599EDB3C)
+F (..\Src\drv\flash.c)(0x5E61E786)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\flash.o --omf_browse .\objects\flash.crf --depend .\objects\flash.d)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_flash.h)(0x5D8D69CF)
+I (..\Src\drv\flash.h)(0x5E61B9DC)
+I (C:\Keil_v5_525\ARM\ARMCC\include\string.h)(0x599EDB3C)
+F (..\Src\drv\flash.h)(0x5E61B9DC)()
+F (..\Src\drv\GT21L16S2Y.C)(0x5D8D69D0)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\gt21l16s2y.o --omf_browse .\objects\gt21l16s2y.crf --depend .\objects\gt21l16s2y.d)
+I (..\Src\drv\GT21L16S2Y.H)(0x5D8D69D0)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Src\utils\typedef.h)(0x5D8D69D0)
+I (C:\Keil_v5_525\ARM\ARMCC\include\string.h)(0x599EDB3C)
+F (..\Src\drv\GT21L16S2Y.H)(0x5D8D69D0)()
+F (..\Src\drv\nv3021.c)(0x5D8D69D0)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\nv3021.o --omf_browse .\objects\nv3021.crf --depend .\objects\nv3021.d)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Src\drv\nv3021.h)(0x5D8D69D0)
+I (..\Src\drv\device_config.h)(0x5D8D69D0)
+I (..\Src\utils\typedef.h)(0x5D8D69D0)
+F (..\Src\drv\nv3021.h)(0x5D8D69D0)()
+F (..\Src\drv\poc.c)(0x5E61E704)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\poc.o --omf_browse .\objects\poc.crf --depend .\objects\poc.d)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Src\drv\poc.h)(0x5D8D69D0)
+I (..\Src\drv\device_config.h)(0x5D8D69D0)
+I (..\Src\drv\uart.h)(0x5D8D69D0)
+I (C:\Keil_v5_525\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Src\app\my_string.h)(0x5D8D69CF)
+I (..\Src\app\device.h)(0x5D8D69CF)
+I (..\Src\drv\flash.h)(0x5E61B9DC)
+F (..\Src\drv\poc.h)(0x5D8D69D0)()
+F (..\Src\app\my_string.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\my_string.o --omf_browse .\objects\my_string.crf --depend .\objects\my_string.d)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Src\app\my_string.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (C:\Keil_v5_525\ARM\ARMCC\include\ctype.h)(0x599EDB3E)
+I (..\Src\drv\GT21L16S2Y.H)(0x5D8D69D0)
+I (..\Src\utils\typedef.h)(0x5D8D69D0)
+F (..\Src\app\my_string.h)(0x5D8D69CF)()
+F (..\Src\app\device.c)(0x5E61C2AE)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\device.o --omf_browse .\objects\device.crf --depend .\objects\device.d)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Src\app\device.h)(0x5D8D69CF)
+I (..\Src\drv\flash.h)(0x5E61B9DC)
+I (..\Src\app\my_string.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Src\usr\machine_config.h)(0x5E61F3AC)
+F (..\Src\app\device.h)(0x5D8D69CF)()
+F (..\Libraries\core_cm3.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+F (..\Libraries\system_stm32f10x.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+F (..\Libraries\src\stm32f10x_flash.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (..\Libraries\inc\stm32f10x_flash.h)(0x5D8D69CF)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+F (..\Libraries\src\stm32f10x_gpio.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+F (..\Libraries\src\stm32f10x_usart.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+F (..\Libraries\src\misc.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+F (..\Libraries\src\stm32f10x_adc.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (..\Libraries\inc\stm32f10x_adc.h)(0x5D8D69CF)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+F (..\Libraries\src\stm32f10x_rcc.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+F (..\Src\usr\main.c)(0x5E61F0B8)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_flash.h)(0x5D8D69CF)
+I (..\Src\drv\flash.h)(0x5E61B9DC)
+I (..\Src\drv\uart.h)(0x5D8D69D0)
+I (..\Src\drv\nv3021.h)(0x5D8D69D0)
+I (..\Src\drv\device_config.h)(0x5D8D69D0)
+I (C:\Keil_v5_525\ARM\ARMCC\include\string.h)(0x599EDB3C)
+I (..\Src\drv\GT21L16S2Y.H)(0x5D8D69D0)
+I (..\Src\utils\typedef.h)(0x5D8D69D0)
+I (..\Src\drv\poc.h)(0x5D8D69D0)
+I (..\Src\app\device.h)(0x5D8D69CF)
+I (..\Src\usr\machine_config.h)(0x5E61F3AC)
+I (..\Src\usr\english_text.h)(0x5E61F1C0)
+F (..\Libraries\src\stm32f10x_rtc.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
+I (..\Libraries\inc\stm32f10x_rtc.h)(0x5D8D69CF)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)
+F (..\Libraries\src\stm32f10x_tim.c)(0x5D8D69CF)(--c99 -c --cpu Cortex-M3 -g -O1 --apcs=interwork --split_sections -I ..\Libraries\inc -I ..\Libraries -I ..\Src\app -I ..\Src\drv -I ..\Src\usr -I ..\Src\utils-I.\RTE\_POC-IC:\Keil_v5_525\ARM\PACK\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5_525\ARM\CMSIS\Include-D__UVISION_VERSION="526" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (..\Libraries\inc\stm32f10x_tim.h)(0x5D8D69CF)
+I (..\Libraries\stm32f10x.h)(0x5D8D69CF)
+I (..\Libraries\core_cm3.h)(0x5D8D69CF)
+I (C:\Keil_v5_525\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\Libraries\system_stm32f10x.h)(0x5D8D69CF)
+I (..\Src\usr\stm32f10x_conf.h)(0x5D8D69D0)
+I (..\Libraries\inc\stm32f10x_gpio.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_rcc.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_spi.h)(0x5D8D69CF)
+I (..\Libraries\inc\stm32f10x_usart.h)(0x5D8D69CF)
+I (..\Libraries\inc\misc.h)(0x5D8D69CF)

@@ -1,0 +1,16 @@
+.\objects\flash.o: ..\Src\drv\flash.c
+.\objects\flash.o: ..\Libraries\stm32f10x.h
+.\objects\flash.o: ..\Libraries\core_cm3.h
+.\objects\flash.o: C:\Keil_v5_525\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\flash.o: ..\Libraries\system_stm32f10x.h
+.\objects\flash.o: ..\Src\usr\stm32f10x_conf.h
+.\objects\flash.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\objects\flash.o: ..\Libraries\stm32f10x.h
+.\objects\flash.o: ..\Libraries\inc\stm32f10x_rcc.h
+.\objects\flash.o: ..\Libraries\inc\stm32f10x_spi.h
+.\objects\flash.o: ..\Libraries\inc\stm32f10x_tim.h
+.\objects\flash.o: ..\Libraries\inc\stm32f10x_usart.h
+.\objects\flash.o: ..\Libraries\inc\misc.h
+.\objects\flash.o: ..\Libraries\inc\stm32f10x_flash.h
+.\objects\flash.o: ..\Src\drv\flash.h
+.\objects\flash.o: C:\Keil_v5_525\ARM\ARMCC\Bin\..\include\string.h

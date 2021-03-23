@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+".\objects\stm32f10x_it.o"
+".\objects\startup_stm32f10x_hd.o"
+".\objects\uart.o"
+".\objects\flash.o"
+".\objects\gt21l16s2y.o"
+".\objects\nv3021.o"
+".\objects\poc.o"
+".\objects\my_string.o"
+".\objects\device.o"
+".\objects\core_cm3.o"
+".\objects\system_stm32f10x.o"
+".\objects\stm32f10x_flash.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_usart.o"
+".\objects\misc.o"
+".\objects\stm32f10x_adc.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\main.o"
+".\objects\stm32f10x_rtc.o"
+".\objects\stm32f10x_tim.o"
+--strict --scatter ".\Objects\TP79_BOOT.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listing\TP79_BOOT.map" -o .\Objects\TP79_BOOT.axf

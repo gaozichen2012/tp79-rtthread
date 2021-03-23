@@ -1,0 +1,17 @@
+.\objects\uart.o: ..\Src\drv\uart.c
+.\objects\uart.o: ..\Libraries\stm32f10x.h
+.\objects\uart.o: ..\Libraries\core_cm3.h
+.\objects\uart.o: C:\Keil_v5_525\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart.o: ..\Libraries\system_stm32f10x.h
+.\objects\uart.o: ..\Src\usr\stm32f10x_conf.h
+.\objects\uart.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\objects\uart.o: ..\Libraries\stm32f10x.h
+.\objects\uart.o: ..\Libraries\inc\stm32f10x_rcc.h
+.\objects\uart.o: ..\Libraries\inc\stm32f10x_spi.h
+.\objects\uart.o: ..\Libraries\inc\stm32f10x_tim.h
+.\objects\uart.o: ..\Libraries\inc\stm32f10x_usart.h
+.\objects\uart.o: ..\Libraries\inc\misc.h
+.\objects\uart.o: ..\Src\drv\device_config.h
+.\objects\uart.o: ..\Src\drv\uart.h
+.\objects\uart.o: ..\Src\drv\tim3.h
+.\objects\uart.o: C:\Keil_v5_525\ARM\ARMCC\Bin\..\include\string.h

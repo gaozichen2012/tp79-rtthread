@@ -1,0 +1,14 @@
+.\objects\misc.o: ..\Libraries\src\misc.c
+.\objects\misc.o: ..\Libraries\inc\misc.h
+.\objects\misc.o: ..\Libraries\stm32f10x.h
+.\objects\misc.o: ..\Libraries\core_cm3.h
+.\objects\misc.o: C:\Keil_v5_525\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\misc.o: ..\Libraries\system_stm32f10x.h
+.\objects\misc.o: ..\Src\usr\stm32f10x_conf.h
+.\objects\misc.o: ..\Libraries\inc\stm32f10x_gpio.h
+.\objects\misc.o: ..\Libraries\stm32f10x.h
+.\objects\misc.o: ..\Libraries\inc\stm32f10x_rcc.h
+.\objects\misc.o: ..\Libraries\inc\stm32f10x_spi.h
+.\objects\misc.o: ..\Libraries\inc\stm32f10x_tim.h
+.\objects\misc.o: ..\Libraries\inc\stm32f10x_usart.h
+.\objects\misc.o: ..\Libraries\inc\misc.h

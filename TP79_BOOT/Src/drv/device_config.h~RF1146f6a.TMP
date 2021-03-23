@@ -1,0 +1,29 @@
+#ifndef __DEVICE_CONFIG_H_
+#define __DEVICE_CONFIG_H_
+
+
+
+/*   for device config  */
+
+//设备是否带Key
+#define DEVICE_KEY    		1
+//设备是否带LED 指示
+#define DEVICE_LED   			1
+
+//设备是否带poc
+#define DEVICE_POC   			1
+//设备是否带GPS
+#define DEVICE_GPS   			1
+
+//设备是否带GPS
+#define DEVICE_TIM3  		1
+
+//设备是否带GPS
+#define DEVICE_AUDIO_TTS 		1
+
+#if  DEVICE_POC
+#define DEVICE_POC_UART2
+
+#endif
+
+#endif
