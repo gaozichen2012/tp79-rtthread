@@ -40,7 +40,7 @@
 #define RT_USING_CONSOLE
 #define RT_CONSOLEBUF_SIZE 128
 #define RT_CONSOLE_DEVICE_NAME "uart1"
-#define RT_VER_NUM 0x40000
+#define RT_VER_NUM 0x40002
 #define ARCH_ARM
 #define ARCH_ARM_CORTEX_M
 #define ARCH_ARM_CORTEX_M3
@@ -80,7 +80,14 @@
 #define RT_PIPE_BUFSZ 512
 #define RT_USING_SERIAL
 #define RT_SERIAL_USING_DMA
+#define RT_SERIAL_RB_BUFSZ 64
+#define RT_USING_I2C
+#define RT_USING_I2C_BITOPS
 #define RT_USING_PIN
+#define RT_USING_SPI
+#define RT_USING_SFUD
+#define RT_SFUD_USING_SFDP
+#define RT_SFUD_USING_FLASH_INFO_TABLE
 
 /* Using WiFi */
 
@@ -96,6 +103,9 @@
 /* Socket abstraction layer */
 
 
+/* Network interface device */
+
+
 /* light weight TCP/IP stack */
 
 
@@ -109,9 +119,6 @@
 
 
 /* Utilities */
-
-
-/* ARM CMSIS */
 
 
 /* RT-Thread online packages */
@@ -145,13 +152,22 @@
 /* system packages */
 
 
+/* Micrium: Micrium software products porting for RT-Thread */
+
+
 /* peripheral libraries and drivers */
+
+
+/* AI packages */
 
 
 /* miscellaneous packages */
 
 
 /* samples: kernel and components samples */
+
+
+/* games: games run on RT-Thread console */
 
 #define SOC_FAMILY_STM32
 #define SOC_SERIES_STM32F1
@@ -163,12 +179,19 @@
 /* Onboard Peripheral Drivers */
 
 #define BSP_USING_USB_TO_USART
+#define BSP_USING_EEPROM
+#define BSP_USING_SPI_FLASH
 
 /* On-chip Peripheral Drivers */
 
 #define BSP_USING_GPIO
 #define BSP_USING_UART
 #define BSP_USING_UART1
+#define BSP_USING_SPI
+#define BSP_USING_SPI2
+#define BSP_USING_I2C1
+#define BSP_I2C1_SCL_PIN 22
+#define BSP_I2C1_SDA_PIN 23
 
 /* Board extended module Drivers */
 
